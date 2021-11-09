@@ -8,4 +8,4 @@ $hash = Read-Host "Enter path to hash text file"
 C:\Windows\System32\Robocopy.exe $scr $dest /XO /log+:log.txt
 
 "Generating Hash File"
-C:\Users\VC569MH\Downloads\hashmyfiles\HashMyFiles.exe /file "$src*.txt" /stext "$hash"
+C:pathTo\HashMyFiles.exe /file "$src*.txt" /stext "$hash"
